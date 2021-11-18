@@ -1,0 +1,15 @@
+{
+    "baseUrl":"https://foxsports.com.au/",
+    "reporter": "cypress-multi-reporters",
+    "viewportWidth": 1440,
+    "viewportHeight": 900,
+    "reporterOptions": {
+        "reporterEnabled": "mochawesome",
+        "mochawesomeReporterOptions": {
+            "reportDir": "cypress/results",
+            "overwrite": false,
+            "html": false,
+            "json": true
+        }
+    }
+}
